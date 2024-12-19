@@ -128,7 +128,7 @@ public class TestEncryptionOptions {
 
   private ErrorCollector errorCollector;
   private InterOpTester interop = new InterOpTester();
-  private static final String CHANGESET = "40379b3";
+  private static final String CHANGESET = "ec7e69c";
 
   private static final byte[] FOOTER_ENCRYPTION_KEY = "0123456789012345".getBytes();
   private static final byte[][] COLUMN_ENCRYPTION_KEYS = {
